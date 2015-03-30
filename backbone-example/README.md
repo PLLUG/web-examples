@@ -1,7 +1,8 @@
 ### Backbone example ###
 
 * Run client
-``` shell
+
+``` sh
 npm install -g gulp
 
 npm install 
@@ -13,7 +14,7 @@ gulp
 
 * Run server
 
-```shell
+```sh
 node server/index.js
 
 ```
