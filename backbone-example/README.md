@@ -1,2 +1,5 @@
-=== Backbone example ====
+### Backbone example ###
+
+* Run client
+* Run server
 
