@@ -1,0 +1,14 @@
+<a href="#logout">Log out</a>
+<h2>Books</h2>
+
+<div>
+  <table>
+    <% _.each(books, function(book) { %>
+    <tr>
+      <td><img src="<%- book.image %>" /></td>
+      <td><b><%- book.title %></b></td>
+      <td><%- book.author %></td>
+    </tr>
+    <% }); %>
+  </table>
+</div>
