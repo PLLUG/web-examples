@@ -2,7 +2,7 @@
 
 * Run client
 
-``` sh
+```{engine="bash"}
 npm install -g gulp
 
 npm install 
@@ -14,7 +14,7 @@ gulp
 
 * Run server
 
-```sh
+```{engine="bash"}
 node server/index.js
 
 ```
