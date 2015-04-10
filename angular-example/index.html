@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    #left {
+      width: 30%;
+      float: left;
+    }
+
+    #right {
+      width: 70%;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <div ng-controller="MyController">
+    <div id="left">
+      <div ng-repeat="post in posts">
+        <a href="#" ng-click="changeCurrentPost($index)">{{ post.title }}</a>
+      </div>
+    </div>
+    <div id="right">
+      <h2>{{ currentPost.title }}</h2>
+    <div>
+      <div>{{ currentPost.content }}</div>
+    </div>
+  </div>
+  </div>
+  <script src="./bower_components/angular/angular.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
